@@ -14,7 +14,15 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Github,
+  Linkedin,
+  Link,
+  Send,
+} from "lucide-react";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -67,9 +75,19 @@ export function Contact() {
       href: "https://github.com/Songark",
     },
     {
+      icon: <Link className="h-5 w-5" />,
+      label: "Resume",
+      href: "https://resume.io/r/Ycz7zlA17",
+    },
+    {
+      icon: <Send className="h-5 w-5" />,
+      label: "Telegram",
+      href: "https://t.me/technician4you",
+    },
+    {
       icon: <Linkedin className="h-5 w-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/kentaro-namba",
+      href: "https://www.linkedin.com/in/kentaro-namba-a07038367/",
     },
   ];
 

@@ -8,6 +8,7 @@ import {
   Blocks,
   Cloud,
   Brain,
+  Wifi,
 } from "lucide-react";
 
 export function Skills() {
@@ -32,6 +33,17 @@ export function Skills() {
         { name: "Integrated Security", level: 92 },
         { name: "Security Research", level: 80 },
         { name: "Malware Analysis", level: 88 },
+      ],
+    },
+    {
+      title: "Network Programming",
+      icon: <Wifi className="h-6 w-6" />,
+      skills: [
+        { name: "TCP / UDP / Sockets", level: 95 },
+        { name: "HTTP / REST / WebSocket", level: 92 },
+        { name: "gRPC / RPC Protocols", level: 85 },
+        { name: "Network Security: SSL/TLS / VPN", level: 78 },
+        { name: "Open SIP / Software Switch", level: 75 },
       ],
     },
     {
@@ -83,10 +95,10 @@ export function Skills() {
       icon: <Brain className="h-6 w-6" />,
       skills: [
         { name: "Python / PyTorch / TorchEngine", level: 80 },
-        { name: "Deep Learning", level: 82 },
-        { name: "CNN / RNN Modeling", level: 78 },
-        { name: "Computer Vision", level: 75 },
-        { name: "Natural Language Processing", level: 80 },
+        { name: "Model: CNN / RNN / GNN", level: 75 },
+        { name: "Computer Vision: Yolo / Vgg / OpenCV", level: 85 },
+        { name: "Audio: DeepSpeach / TTS / LibRosa", level: 82 },
+        { name: "Generative AI: NLP, LLM, GPTs", level: 80 },
       ],
     },
   ];
