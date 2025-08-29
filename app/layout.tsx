@@ -1,0 +1,43 @@
+import type React from "react"
+import type { Metadata } from "next"
+import { Space_Grotesk, DM_Sans } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
+import { Suspense } from "react"
+import { ThemeProvider } from "@/components/theme-provider"
+import "./globals.css"
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-space-grotesk",
+})
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-dm-sans",
+})
+
+export const metadata: Metadata = {
+  title: "Kentaro Namba - Senior Software Engineer",
+  description:
+    "Portfolio of Kentaro Namba, Senior Software Engineer specializing in C/C++, Reverse Engineering, Game Development, Full Stack, Blockchain, Cloud, and AI/ML",
+  generator: "v0.app",
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="en" className={`${spaceGrotesk.variable} ${dmSans.variable}`} suppressHydrationWarning>
+      <body className="font-sans antialiased">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <Suspense fallback={null}>{children}</Suspense>
+        </ThemeProvider>
+        <Analytics />
+      </body>
+    </html>
+  )
+}
