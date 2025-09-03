@@ -82,57 +82,31 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 1.0 }}
         >
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Button
-              size="lg"
-              className="w-full sm:w-auto transition-all duration-300 hover:shadow-lg hover:shadow-primary/25"
-            >
-              <Mail className="mr-2 h-4 w-4" />
-              Get In Touch
-            </Button>
+            <a href="#contact" className="w-full sm:w-auto">
+              <Button
+                size="lg"
+                className="w-full sm:w-auto transition-all duration-300 hover:shadow-lg hover:shadow-primary/25"
+              >
+                <Mail className="mr-2 h-4 w-4" />
+                Get In Touch
+              </Button>
+            </a>
           </motion.div>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <Button
-              variant="outline"
-              size="lg"
-              className="w-full sm:w-auto bg-transparent transition-all duration-300 hover:shadow-lg hover:bg-primary/5"
+            <a
+              href="/Resume_KentaroNamba.pdf"
+              download="Resume_KentaroNamba.pdf"
+              className="w-full sm:w-auto"
             >
-              <Download className="mr-2 h-4 w-4" />
-              Download Resume
-            </Button>
-          </motion.div>
-        </motion.div>
-
-        <motion.div
-          className="flex justify-center space-x-6"
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1.2 }}
-        >
-          <motion.div
-            whileHover={{ scale: 1.1, rotate: 5 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <Button
-              variant="ghost"
-              size="sm"
-              className="transition-all duration-300 hover:bg-primary/10"
-            >
-              <Github className="h-5 w-5" />
-              <span className="sr-only">GitHub</span>
-            </Button>
-          </motion.div>
-          <motion.div
-            whileHover={{ scale: 1.1, rotate: -5 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <Button
-              variant="ghost"
-              size="sm"
-              className="transition-all duration-300 hover:bg-primary/10"
-            >
-              <Linkedin className="h-5 w-5" />
-              <span className="sr-only">LinkedIn</span>
-            </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                className="w-full sm:w-auto bg-transparent transition-all duration-300 hover:shadow-lg hover:bg-primary/5"
+              >
+                <Download className="mr-2 h-4 w-4" />
+                Download Resume
+              </Button>
+            </a>
           </motion.div>
         </motion.div>
       </motion.div>
