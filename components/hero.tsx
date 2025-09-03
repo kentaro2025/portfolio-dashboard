@@ -30,7 +30,7 @@ export function Hero() {
         style={{ y, opacity }}
         className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10"
       >
-        <motion.div
+        {/* <motion.div
           className="mb-8"
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -44,7 +44,7 @@ export function Hero() {
               className="w-48 h-48 rounded-full mx-auto border-4 border-primary/20 relative z-10"
             />
           </div>
-        </motion.div>
+        </motion.div> */}
 
         <motion.h1
           className="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl text-foreground mb-6 text-balance"
