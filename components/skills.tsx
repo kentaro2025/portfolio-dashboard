@@ -72,10 +72,10 @@ export function Skills() {
       title: "Blockchain Architecture",
       icon: <Blocks className="h-6 w-6" />,
       skills: [
-        { name: "Solidity / Rust", level: 95 },
+        { name: "Solidity / Rust / Move", level: 95 },
         { name: "Smart Contracts", level: 92 },
         { name: "DeFi Protocols", level: 88 },
-        { name: "Trading Bot", level: 92 },
+        { name: "Cross-exchange Basis Trading Bot", level: 92 },
         { name: "Web3 Integration", level: 95 },
       ],
     },

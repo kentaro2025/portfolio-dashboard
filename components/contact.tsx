@@ -22,6 +22,7 @@ import {
   Linkedin,
   Link,
   Send,
+  MessageCircle,
 } from "lucide-react";
 
 export function Contact() {
@@ -87,7 +88,12 @@ export function Contact() {
     {
       icon: <Linkedin className="h-5 w-5" />,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/kentaro-namba-a07038367/",
+      href: "https://www.linkedin.com/in/kentaro-namba-37797a399/",
+    },
+    {
+      icon: <MessageCircle className="h-5 w-5" />,
+      label: "Discord",
+      href: "https://discord.com/users/kentaro2020",
     },
   ];
 
@@ -145,16 +151,16 @@ export function Contact() {
               <h4 className="font-heading font-medium text-lg text-foreground mb-4">
                 Follow Me
               </h4>
-              <div className="flex space-x-4">
+              <div className="flex flex-wrap gap-2">
                 {socialLinks.map((link, index) => (
-                  <Button key={index} variant="outline" size="sm" asChild>
+                  <Button key={index} variant="outline" size="sm" asChild className="flex-shrink-0">
                     <a
                       href={link.href}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       {link.icon}
-                      <span className="ml-2">{link.label}</span>
+                      <span className="ml-2 hidden sm:inline">{link.label}</span>
                     </a>
                   </Button>
                 ))}

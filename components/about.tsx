@@ -14,48 +14,41 @@ export function About() {
       year: "2012 ~ now",
       title: "Started Programming Journey",
       description:
-        "Began developing applications using C/C++ and computer science fundamentals",
+        "Began developing applications using C / C++ / C# / Java / Qt and OOP, Data Structures, Algorithms, Computer Networks, Operating Systems, Database Systems, Software Engineering, etc.",
       icon: <Calendar className="h-4 w-4" />,
     },
     {
       year: "2014 ~ 2020",
       title: "Game Development Focus",
       description:
-        "Specialized in game engine development and security of communication",
+        "Specialized in game engine using Unity3d / Cocos2d / Unreal and security of communication, developed games for Windows, Android, and iOS",
       icon: <Briefcase className="h-4 w-4" />,
     },
     {
       year: "2015 ~ now",
       title: "Reverse Engineering Expertise",
       description:
-        "Developed skills in binary analysis and security research, worked on windows / web / android app's analysis",
+        "Developed skills in binary analysis and security research using IDA Pro / Ghidra / Immunity Debugger / OllyDbg / x64dbg / WinDbg / C++ Decompiler / C# Decompiler / Java Decompiler / Qt Decompiler, worked on windows / web / android app's analysis",
       icon: <MapPin className="h-4 w-4" />,
     },
     {
       year: "2017 ~ now",
       title: "Full-Stack Development",
-      description: "Expanded into web technologies and full-stack architecture",
+      description: "Expanded into web technologies and full-stack for ecommerce, social media, and other web applications using Node.js, JavaScript/TypeScript (React, Next.js, Angular, Vue.js, Express.js), Python (Django, Flask), Go, PHP (Laravel, CodeIgniter), PostgreSQL, MongoDB, MySQL, Oracle",
       icon: <Briefcase className="h-4 w-4" />,
     },
     {
       year: "2020 ~ now",
       title: "Blockchain Architecture",
       description:
-        "Specialized in blockchain development and smart contracts on EVM/Solana/Bitcoin",
+        "Specialized in Blockchain development and Smart contracts for DeFi dapps and NFTs on EVM/Solana/Bitcoin/Sui using Solidity, Rust, Move, etc.",
       icon: <Calendar className="h-4 w-4" />,
     },
     {
       year: "2023 ~ now",
       title: "AI/ML Integration",
-      description: "Integrated machine learning and AI into software solutions",
+      description: "Integrated machine learning and AI into software solutions using TensorFlow, PyTorch, OpenAI, DeepSeek, etc.",
       icon: <MapPin className="h-4 w-4" />,
-    },
-    {
-      year: "2025",
-      title: "Senior Software Engineer",
-      description:
-        "Developing complex projects across multiple technology domains",
-      icon: <Briefcase className="h-4 w-4" />,
     },
   ];
 
@@ -73,8 +66,7 @@ export function About() {
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
             I'm a Senior Software Engineer with 10+ years of experience
-            delivering secure, scalable solutions across Full-Stack, Web3,
-            Blockchain, DevOps, AI/ML, and cloud infrastructure. My journey in
+            delivering secure, scalable solutions across AI/ML, Full-Stack, Web3/Blockchain, DevOps, and cloud infrastructure. My journey in
             software engineering spans over a decade, evolving from low-level
             programming to cutting-edge AI/ML applications.
           </p>
@@ -90,41 +82,60 @@ export function About() {
               My Journey Since 2012
             </h3>
             <p className="text-muted-foreground mb-6 text-pretty">
-              Starting with C/C++ programming in 2012, I've continuously evolved
+              Starting with <b>C/C++ programming</b> in 2012, I've continuously evolved
               my expertise across diverse technology domains. My passion for
-              understanding systems at their core led me through reverse
-              engineering, game development, and eventually into modern
-              full-stack development, blockchain architecture, and AI/ML
-              programming.
+              understanding systems at their core led me through <b>Reverse
+              engineering, Game development</b>, and eventually into modern 
+              <b> Full Stack development, Blockchain, AI/ML engineering</b>, and etc.
             </p>
             <p className="text-muted-foreground mb-6 text-pretty">
-              I’ve launched 50+ Production smart contracts powering DeFi
-              platforms, DEXs, Staking, Lending, and GameFi with $50M+ in volume
-              on EVM/Solana/Bitcoin Mainnet. I built a cross-exchange Basis
-              Trading Bot (Hyperliquid, Binance, Kraken, ByBit) leveraging live
+              In <b>Blockchain development</b>, I’ve launched <b>50+ Production smart contracts</b> powering DeFi
+              platforms, <b>DEXs, Staking, Lending, and GameFi</b> with $50M+ in volume
+              on <b>EVM/Solana/Bitcoin Mainnet</b>.
+              <br />For a few example, I've architected and deployed production-grade
+              DeFi protocols including the <b>Ink Economy Finance Platform</b>, a comprehensive
+              ecosystem with yield farming, liquidity pools, and NFT staking that processed
+              $50M+ in transactions. 
+              <br />Built <b>SolSniper</b>, an advanced MEV-protected token
+              sniper bot with real-time on-chain monitoring and automated execution strategies
+              for the Solana ecosystem.
+              <br /> I also built a <b>Cross-exchange Basis
+              Trading Bot</b> (Hyperliquid, Binance, Kraken, ByBit) leveraging live
               spread and funding data for real-time execution.
             </p>
             <p className="text-muted-foreground mb-6 text-pretty">
-              Skilled in Node.js, JavaScript/TypeScript (React, Next.js),
+              In <b>Full Stack development</b>, I'm skilled in using various technologies including <b>Node.js, JavaScript/TypeScript (React, Next.js),
               Python, Go, C/C++, C#, PHP (Laravel, CodeIgniter), Unity3d,
-              Cocos2d, and Database systems (PostgreSQL, MongoDB, MysQL,
-              Oracle).
+              Cocos2d, Unreal</b>, and <b>Database systems (PostgreSQL, MongoDB, MySQL,
+              Oracle)</b>.
+              <br />Built <b>ModernShop</b>, a scalable full-stack e-commerce platform with real-time
+              inventory management, payment gateway integration, and AI-powered recommendations,
+              architected with microservices to handle thousands of concurrent transactions
+              with 99.9% uptime.
             </p>
             <p className="text-muted-foreground mb-6 text-pretty">
-              Strong in cloud-native DevOps with AWS, Docker, Kubernetes, and
-              CI/CD automation.
+              In <b>AI/ML engineering</b>, I have hands-on work in <b>NLP, predictive
+              modeling, LLM, and Computer Vision using TensorFlow and PyTorch</b>. 
+              <br />I've built <b>AI Movie Generator</b>, a content
+              creation platform leveraging LLM integration and computer vision to generate
+              production-ready scripts and storyboards. Created <b>CleverChat</b>, an intelligent
+              conversational AI with multi-modal capabilities, real-time NLP processing, and
+              context-aware responses for enterprise applications.
             </p>
             <p className="text-muted-foreground mb-6 text-pretty">
-              Passionate about AI/ML, with hands-on work in NLP, predictive
-              modeling, and CV using TensorFlow and PyTorch. I value clean code,
-              secure architecture, and thriving in fast-moving, collaborative
-              teams.
+              In <b>Game development</b>, I created <b>PokerGamePlugins</b> for Unity3d and Cocos2d,
+              implementing secure multiplayer networking, anti-cheat systems, and real-time
+              synchronization for competitive gaming experiences deployed across desktop and
+              mobile platforms.
             </p>
-            <p className="text-muted-foreground text-pretty">
-              Today, I leverage this broad technical foundation to architect
-              innovative solutions that bridge traditional software engineering
-              with emerging technologies, always focusing on performance,
-              security, and scalability.
+            <p className="text-muted-foreground mb-6 text-pretty">
+              Also, I've developed <b>WowsaMeet</b> - a real-time video conferencing platform with WebRTC integration, featuring screen
+              sharing and recording capabilities, scaling to support thousands of simultaneous
+              participants with low-latency streaming.
+            </p>
+            <p className="text-muted-foreground mb-6 text-pretty">
+              Strong in cloud-native <b>DevOps</b> with AWS, Docker, Kubernetes, and 
+              <b> CI/CD automation</b>.
             </p>
           </motion.div>
 
