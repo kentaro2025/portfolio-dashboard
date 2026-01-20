@@ -4,6 +4,7 @@ import { Space_Grotesk, DM_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Suspense } from "react";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -44,6 +45,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Suspense fallback={null}>{children}</Suspense>
+          <Toaster />
         </ThemeProvider>
         <Analytics />
       </body>

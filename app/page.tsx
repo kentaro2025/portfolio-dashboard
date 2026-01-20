@@ -3,6 +3,7 @@
 import { Hero } from "@/components/hero"
 import { About } from "@/components/about"
 import { Skills } from "@/components/skills"
+import { Experiences } from "@/components/experiences"
 import { Products } from "@/components/products"
 import { Services } from "@/components/services"
 import { Contact } from "@/components/contact"
@@ -40,19 +41,26 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <Products />
+          <Experiences />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}
         >
-          <Services />
+          <Products />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
+        >
+          <Services />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.7 }}
         >
           <Contact />
         </motion.div>

@@ -13,9 +13,9 @@ export function Products() {
   const projects = [
     // 🟢 BLOCKCHAIN & WEB3
     {
-      title: "Ink Finance Economy Staking & Governance DApps",
+      title: "Ink Finance Staking DApp",
       description:
-        "DeFi protocol with staking, pledging, and DAO governance smart contracts optimized for gas efficiency and security.",
+        "DeFi Protocol with Staking, Pledging, Sponsorship, and DAO governance smart contracts optimized for gas efficiency and security.",
       image: "/ink-finance-dapp.png",
       technologies: ["Solidity", "TypeScript", "Web3", "DeFi"],
       github: "https://github.com/kentaro2025/solidity-inkfinance-staking-v3",
@@ -24,34 +24,34 @@ export function Products() {
     {
       title: "Loxar NFT Marketplace",
       description:
-        "Blockchain-powered NFT marketplace for fractional real estate ownership with custom smart contracts and frontend integration.",
+        "Blockchain-powered NFT Game and Marketplace for fractional real estate ownership with custom smart contracts and frontend integration.",
       image: "/loxar-nft-marketplace.png",
       technologies: ["Solidity", "React", "IPFS", "ERC721 / 1155"],
       github: "https://github.com/LooksRare",
       demo: "https://looksrare.org/",
     },
     {
-      title: "Blockchain Analytics Platform",
+      title: "Basis Crypto Trading Bot",
       description:
-        "Full-stack application for analyzing blockchain transactions with real-time monitoring and AI-powered insights.",
-      image: "/blockchain-analytics-dashboard.png",
-      technologies: ["React", "Node.js", "Solidity", "Python"],
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Real-Time Trading Bot",
-      description:
-        "High-frequency trading system with machine learning algorithms for cryptocurrency and traditional markets.",
+        "High-frequency crypto trading system with Basis asset and AI-powered trading strategies for cryptocurrency using Hyperliquid, Binance, and Coinbase.",
       image: "/trading-bot-dashboard-interface.png",
-      technologies: ["Node.js", "AWS", "WebSocket", "AI/ML"],
+      technologies: ["Node.js", "AI/ML", "Crypto", "Postgres"],
       github: "https://github.com/kentaro2025/basis-tradingbot-frontend-v1",
       demo: "https://basis-tradingbot-frontend-v1.vercel.app/",
     },
 
     // 🔵 AI & DATA
     {
-      title: "AI Music Video Generator",
+      title: "AI Powered Document Mining",
+      description:
+        "Transforming documents into intelligence, understanding the context, and getting accurate answers from documents powered by AI technologies.",
+      image: "/document-mining-by-ai.png",
+      technologies: ["Python", "OpenAI", "Supabase", "Next.js"],
+      github: "https://github.com/kentaro2025/ai-pdf-contract-front",
+      demo: "https://ai-contract-mind.vercel.app/",
+    },
+    {
+      title: "AI Powered Video Generator",
       description:
         "AI-powered system that automatically generates music videos by syncing visuals with beats and lyrics.",
       image: "/ai-music-video-generator.png",
@@ -60,7 +60,7 @@ export function Products() {
       demo: "https://music-video-generator-ai-mocha.vercel.app/",
     },
     {
-      title: "AI-Powered Code Optimizer",
+      title: "AI Powered Code Optimizer",
       description:
         "Machine learning system that analyzes and optimizes C/C++ code for performance improvements and bug detection.",
       image: "/ai-code-analysis-visualization.png",
@@ -71,18 +71,27 @@ export function Products() {
 
     // 🎮 GAMES & SYSTEMS
     {
+      title: "Poker & Casino Game Platform",
+      description:
+        "End-to-end poker and casino gaming featuring real-time game logic, secure RNG systems, player account management, and high-performance backend designed for fairness, scalability, and smooth gameplay.",
+      image: "/poker-casino-platform.png",
+      technologies: ["Unity3D", "Game Logic", "RNG", "Backend"],
+      github: "#",
+      demo: "#",
+    },
+    {
       title: "Slot Machine Game",
       description:
-        "Interactive slot machine game developed in Unity3D with Node.js backend for multiplayer and reward mechanics.",
+        "Interactive slot machine game developed in Unity3D with a Node.js backend, supporting multiplayer gameplay, real-time reward distribution, player progression, safe game state management.",
       image: "/slot-machine-game.png",
       technologies: ["Unity3D", "C#", "Node.js", "MongoDB"],
       github: "https://github.com/kentaro2025/slot-machine-unity3d",
       demo: "#",
     },
     {
-      title: "High-Performance Game Engine",
+      title: "MMORPG Game Engine",
       description:
-        "Custom C++ game engine with advanced rendering pipeline, physics simulation, and cross-platform support.",
+        "Custom C++ game engine for MMORPG with full featured game logic with a client-server architecture, advanced rendering pipeline, real-time physics simulation, and cross-platform support.",
       image: "/game-engine-architecture-diagram.png",
       technologies: ["C++", "OpenGL", "Vulkan", "Physics"],
       github: "#",
@@ -106,7 +115,17 @@ export function Products() {
       image: "/reverse-engineering-tools-interface.png",
       technologies: ["C++", "Assembly", "IDA Pro", "Cheat Engine"],
       github:
-        "https://github.com/kentaro2025/integrated-reverse-engineering-tools",
+        "https://github.com/kentaro2025/polyhook2-reverse-engineering",
+      demo: "#",
+    },
+    {
+      title: "Poker Plugin Assistant",
+      description:
+        "Lightweight in-game overlay plugin that provides real-time hand context, stack awareness, pot calculations to support better decision-making.",
+      image: "/poker-plugin-assistant.png",
+      technologies: ["C++", "Assembly", "C#", "DLL Injection"],
+      github:
+        "https://github.com/kentaro2025/PokerCorePlugins",
       demo: "#",
     },
   ];
