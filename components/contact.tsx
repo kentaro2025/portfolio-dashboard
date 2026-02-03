@@ -104,8 +104,8 @@ export function Contact() {
     {
       icon: <Phone className="h-5 w-5" />,
       label: "Phone",
-      value: "+1 (732) 217-7702",
-      href: "tel:+17322177702",
+      value: "+1 (201) 308-3434",
+      href: "tel:+12013083434",
     },
     {
       icon: <MapPin className="h-5 w-5" />,
