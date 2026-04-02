@@ -129,9 +129,10 @@ export function About() {
               mobile platforms.
             </p>
             <p className="text-muted-foreground mb-6 text-pretty">
-              Also, I've developed <b>WowsaMeet</b> - a real-time video conferencing platform with WebRTC integration, featuring screen
-              sharing and recording capabilities, scaling to support thousands of simultaneous
-              participants with low-latency streaming.
+              Also, I've designed and delivered AI-powered integrations across <b>Oracle ERP, CRM, and SCM</b> systems, 
+              enabling real-time data flow and intelligent automation. Built predictive models for forecasting, customer 
+              analytics, and risk detection, improving operational efficiency by up to 40%. 
+              Transformed enterprise systems into data-driven, insight-rich platforms supporting smarter decision-making.
             </p>
             <p className="text-muted-foreground mb-6 text-pretty">
               Strong in cloud-native <b>DevOps</b> with AWS, Docker, Kubernetes, and 

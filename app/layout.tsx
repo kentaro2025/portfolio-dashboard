@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Kentaro Namba, Senior Software Engineer specializing in C/C++, Reverse Engineering, Game Development, Full Stack, Blockchain, Cloud, and AI/ML",
   generator: "Kentaro Namba",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({

@@ -119,12 +119,7 @@ export function Contact() {
     {
       icon: <Github className="h-5 w-5" />,
       label: "GitHub",
-      href: "https://github.com/Songark",
-    },
-    {
-      icon: <Link className="h-5 w-5" />,
-      label: "Resume",
-      href: "https://resume.io/r/Ycz7zlA17",
+      href: "https://github.com/besttechpartner",
     },
     {
       icon: <Send className="h-5 w-5" />,
@@ -138,8 +133,8 @@ export function Contact() {
     },
     {
       icon: <MessageCircle className="h-5 w-5" />,
-      label: "Discord",
-      href: "https://discord.com/users/kentaro2020",
+      label: "Teams",
+      href: "https://teams.microsoft.com/l/chat/0/0?users=gpong515@gmail.com",
     },
   ];
 
