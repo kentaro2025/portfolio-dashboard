@@ -13,6 +13,7 @@ export function Services() {
         "DeFi protocol design",
         "Blockchain integration",
         "Tokenomics consulting",
+        "Web3 integration",
       ],
     },
     {
@@ -20,9 +21,10 @@ export function Services() {
       description: "End-to-end web application development with modern frameworks and scalable architectures.",
       icon: <Globe className="h-8 w-8" />,
       features: [
+        "Python/Node.js backend",
         "React/Next.js applications",
         "RESTful API development",
-        "Database design and optimization",
+        "Database design",
         "Real-time applications",
       ],
     },
@@ -38,6 +40,17 @@ export function Services() {
       ],
     },
     {
+      title: "AI/ML Integration",
+      description: "Machine learning model development, AI system integration, and data science solutions.",
+      icon: <Brain className="h-8 w-8" />,
+      features: [
+        "Custom ML model development",
+        "Computer vision solutions",
+        "Natural language processing",
+        "AI training",
+      ],
+    },    
+    {
       title: "Game Development",
       description: "Custom game engines, graphics programming, and interactive entertainment solutions.",
       icon: <Gamepad2 className="h-8 w-8" />,
@@ -46,27 +59,17 @@ export function Services() {
         "Graphics and shader programming",
         "Physics simulation",
         "Cross-platform deployment",
+        "Game Server"
       ],
     },
+
     {
-      title: "AI/ML Integration",
-      description: "Machine learning model development, AI system integration, and data science solutions.",
-      icon: <Brain className="h-8 w-8" />,
-      features: [
-        "Custom ML model development",
-        "Computer vision solutions",
-        "Natural language processing",
-        "AI system optimization",
-      ],
-    },
-    {
-      title: "ERP & CRM & SCM Integration",
+      title: "ERP & CRM & SCM",
       description: "AI-powered integrations across Oracle ERP, CRM, and SCM systems, enabling real-time data flow and intelligent automation.",
       icon: <Zap className="h-8 w-8" />,
       features: [
-        "AI-powered integrations across Oracle ERP, CRM, and SCM systems",
-        "Real-time data flow and intelligent automation",
-        "Predictive models for forecasting, customer analytics, and risk detection",
+        "AI-powered integrations across Oracle ERP, CRM, SCM",
+        "Real-time data flow, intelligent automation",
         "Improved operational efficiency by up to 40%",
       ],
     },

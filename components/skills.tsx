@@ -9,10 +9,66 @@ import {
   Cloud,
   Brain,
   Wifi,
+  Smartphone,
 } from "lucide-react";
 
 export function Skills() {
   const skillCategories = [
+    {
+      title: "Full Stack Engineering",
+      icon: <Globe className="h-6 w-6" />,
+      skills: [
+        { name: "HTML5 / CSS3 / TypeScript", level: 100 },
+        { name: "React / Next.js / Vue.js", level: 100 },
+        { name: "Python / Flask / Node.js", level: 100 },
+        { name: "Database Design", level: 90 },
+        { name: "API Development", level: 95 },
+      ],
+    },
+    {
+      title: "Blockchain Architecture",
+      icon: <Blocks className="h-6 w-6" />,
+      skills: [
+        { name: "Solidity / Rust / Move", level: 95 },
+        { name: "Smart Contracts", level: 92 },
+        { name: "DeFi Protocols", level: 90 },
+        { name: "Cross-exchange Basis Trading Bot", level: 92 },
+        { name: "Web3 Integration", level: 95 },
+      ],
+    },
+    {
+      title: "Mobile Development",
+      icon: <Smartphone className="h-6 w-6" />,
+      skills: [
+        { name: "React Native / Flutter / Swift / Kotlin", level: 90 },
+        { name: "Native UI Components", level: 95 },
+        { name: "Mobile App Architecture", level: 90 },
+        { name: "Firebase / Supabase", level: 95 },
+        { name: "Mobile App Testing", level: 95 },
+      ],
+    },
+    {
+      title: "Cloud & DevOps",
+      icon: <Cloud className="h-6 w-6" />,
+      skills: [
+        { name: "AWS / Azure / GCP", level: 88 },
+        { name: "Docker / Kubernetes", level: 85 },
+        { name: "CI / CD Pipelines", level: 90 },
+        { name: "Infrastructure as Code", level: 82 },
+        { name: "Monitoring & Logging", level: 82 },
+      ],
+    },
+    {
+      title: "AI/ML Programming",
+      icon: <Brain className="h-6 w-6" />,
+      skills: [
+        { name: "Python / PyTorch / TorchEngine", level: 80 },
+        { name: "Model: CNN / RNN / GNN", level: 75 },
+        { name: "Computer Vision: Yolo / Vgg / OpenCV", level: 85 },
+        { name: "Audio: DeepSpeach / TTS / LibRosa", level: 82 },
+        { name: "Generative AI: NLP, LLM, GPTs", level: 80 },
+      ],
+    },    
     {
       title: "C/C++ Programming",
       icon: <Code className="h-6 w-6" />,
@@ -55,50 +111,6 @@ export function Skills() {
         { name: "Graphics Programming", level: 85 },
         { name: "Physics & Math Simulation", level: 82 },
         { name: "AI Development", level: 80 },
-      ],
-    },
-    {
-      title: "Full Stack Engineering",
-      icon: <Globe className="h-6 w-6" />,
-      skills: [
-        { name: "HTML5 / CSS3 / TypeScript", level: 90 },
-        { name: "React / Next.js", level: 90 },
-        { name: "Node.js / Express / Nest", level: 95 },
-        { name: "Database Design", level: 85 },
-        { name: "API Development", level: 95 },
-      ],
-    },
-    {
-      title: "Blockchain Architecture",
-      icon: <Blocks className="h-6 w-6" />,
-      skills: [
-        { name: "Solidity / Rust / Move", level: 95 },
-        { name: "Smart Contracts", level: 92 },
-        { name: "DeFi Protocols", level: 88 },
-        { name: "Cross-exchange Basis Trading Bot", level: 92 },
-        { name: "Web3 Integration", level: 95 },
-      ],
-    },
-    {
-      title: "Cloud & DevOps",
-      icon: <Cloud className="h-6 w-6" />,
-      skills: [
-        { name: "AWS / Azure / GCP", level: 88 },
-        { name: "Docker / Kubernetes", level: 85 },
-        { name: "CI / CD Pipelines", level: 90 },
-        { name: "Infrastructure as Code", level: 82 },
-        { name: "Monitoring & Logging", level: 82 },
-      ],
-    },
-    {
-      title: "AI/ML Programming",
-      icon: <Brain className="h-6 w-6" />,
-      skills: [
-        { name: "Python / PyTorch / TorchEngine", level: 80 },
-        { name: "Model: CNN / RNN / GNN", level: 75 },
-        { name: "Computer Vision: Yolo / Vgg / OpenCV", level: 85 },
-        { name: "Audio: DeepSpeach / TTS / LibRosa", level: 82 },
-        { name: "Generative AI: NLP, LLM, GPTs", level: 80 },
       ],
     },
   ];

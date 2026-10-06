@@ -61,7 +61,7 @@ export function Hero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Senior Software Engineer
+          Senior Full Stack · Blockchain · AI · Game · AWS Engineer
         </motion.p>
 
         <motion.p
@@ -70,9 +70,8 @@ export function Hero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
-          Crafting innovative solutions across C/C++, Reverse engineering, Game
-          development, Full-stack engineering, Blockchain engineering, AWS &
-          Azure Clouding, and AI/ML programming.
+          Building scalable DeFi, trading, game, and AI-powered systems <br /> 
+          using blockchain, AWS, and AI.
         </motion.p>
 
         <motion.div
@@ -92,7 +91,7 @@ export function Hero() {
               </Button>
             </a>
           </motion.div>
-          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+          {/* <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <a
               href="/Resume_KentaroNamba.pdf"
               download="Resume_KentaroNamba.pdf"
@@ -107,7 +106,7 @@ export function Hero() {
                 Download Resume
               </Button>
             </a>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </motion.div>
     </section>

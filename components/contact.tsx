@@ -98,8 +98,8 @@ export function Contact() {
     {
       icon: <Mail className="h-5 w-5" />,
       label: "Email",
-      value: "qteeprograming@gmail.com",
-      href: "mailto:qteeprograming@gmail.com",
+      value: "kentaro@kncinnovations.com",
+      href: "mailto:kentaro@kncinnovations.com",
     },
     {
       icon: <Phone className="h-5 w-5" />,

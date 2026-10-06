@@ -13,9 +13,47 @@ type Experience = {
 
 const experiences: Experience[] = [
   {
+    period: "April 2026 – Present",
+    role: "Senior Full Stack Engineer",
+    company: "MintCollect · Contract",
+    highlights: [
+      "Architected and developed a full-stack Pokémon TCG marketplace and collection platform on AWS, owning PostgreSQL schemas, Flask REST APIs, React applications, and administrative systems.",
+      "Built a production two-sided marketplace supporting listings, checkout, auctions, disputes, order management, notifications, and Stripe Connect payments across buyers and sellers.",
+      "Designed transaction-safe financial workflows with idempotent webhook processing, explicit payment state machines, integer-based monetary accounting, and auditable ledger records.",
+      "Engineered concurrent auction settlement using PostgreSQL transactions and row-level locking, addressing race conditions and ensuring deterministic bid processing and reliable auction closure.",
+      "Built a customized Pokémon card recognition and scanning pipeline using AWS Textract, Amazon Rekognition, and PaddleOCR to identify cards from images, extract card attributes, and support automated card matching and collection workflows.",
+      "Developed image-processing and OCR workflows for both English and Japanese Pokémon cards, combining computer vision, OCR, and database matching to improve recognition accuracy and scanning performance.",
+      "Developed asynchronous event-driven workflows for notifications and background processing, isolating external service failures from critical marketplace transactions.",
+      "Owned features end to end from system design and database modeling through backend implementation, AI/image-processing integration, frontend development, testing, CI/CD, and AWS deployment."
+    ],
+    skills: [
+      "Software Design",
+      "Back-End Web Development",
+      "Python",
+      "Flask",
+      "Front-End Development",
+      "React.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Amazon Web Services (AWS)",
+      "REST APIs",
+      "Stripe Connect",
+      "Payment Systems",
+      "Marketplace Architecture",
+      "Auction Systems",
+      "Distributed Systems",
+      "Database Transactions",
+      "Redis",
+      "Amazon S3",
+      "CI/CD",
+      "GitHub Actions",
+      "Docker"
+    ],
+  },
+  {
     period: "April 2022 – November 2025",
-    role: "AI & Blockchain Engineer",
-    company: "Ink Finance",
+    role: "Senior Blockchain Full Stack Engineer",
+    company: "Ink Finance · Full-time",
     highlights: [
       "Designed tokenomics including the INK token model and integrated decentralized governance mechanisms inspired by MakerDAO with Uniswap v2-based swap experience and AAVE v2–style.",
       "Created the Staking Economy core DeFi dApp on EVM, architecting mathematical models, mechanisms, and smart contracts for staking, pledging, and sponsorship systems.",
@@ -57,8 +95,8 @@ const experiences: Experience[] = [
   },
   {
     period: "October 2020 – February 2022",
-    role: "AI & Full Stack Engineer",
-    company: "LooksRare (Startup)",
+    role: "Lead Full Stack Engineer",
+    company: "LooksRare · Full-time",
     highlights: [
       "Implemented an AI-powered NFT art generation pipeline that creates character and item NFTs from short video clips.",
       "Combined computer vision for key frame extraction with diffusion models for stylized art generation and automated metadata packaging for ERC-721/1155 minting.",
@@ -90,7 +128,7 @@ const experiences: Experience[] = [
   {
     period: "August 2019 – August 2020",
     role: "AI Solution Architect",
-    company: "HSQA (Startup)",
+    company: "HSQA · Full-time",
     highlights: [
       "Architected and deployed a web-based platform for automated website testing with AI-driven flows.",
       "Integrated facial recognition and real-time camera authentication for frictionless sign-in workflows.",
@@ -126,7 +164,7 @@ const experiences: Experience[] = [
   {
     period: "January 2017 – May 2019",
     role: "Full Stack Developer",
-    company: "WPP Energy",
+    company: "WPP Energy · Full-time",
     highlights: [
       "Led development of dashboards visualizing real-time energy consumption, savings, and project progress for stakeholders.",
       "Enhanced WPP’s user portals with secure authentication and seamless data exchange with energy partners.",
@@ -148,8 +186,8 @@ const experiences: Experience[] = [
   },
   {
     period: "December 2012 – November 2016",
-    role: "Game Developer",
-    company: "Square Enix",
+    role: "Software Developer",
+    company: "Square Enix · Full-time",
     highlights: [
       "Developed MMORPG titles for Windows, Android, and iOS with rich game economies designed for long-term engagement.",
       "Used Cocos2d-x, CryEngine, Unity3D, and Three.js to build immersive experiences and AI-driven NPC behaviors.",

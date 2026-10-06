@@ -13,6 +13,15 @@ export function Products() {
   const projects = [
     // 🟢 BLOCKCHAIN & WEB3
     {
+      title: "MintCollect TCG Marketplace",
+      description:
+        "Full-stack Pokémon TCG marketplace with card scanning, listings, auctions, checkout, order management, analytics, and AI-powered card recognition.",
+      image: "/mintcollect.png",
+      technologies: ["Python", "Flask", "React", "AWS", "AI", "Computer Vision"],
+      github: "",
+      demo: "https://mintcollect.app/",
+    },
+    {
       title: "Ink Finance Staking DApp",
       description:
         "DeFi Protocol with Staking, Pledging, Sponsorship, and DAO governance smart contracts optimized for gas efficiency and security.",
@@ -22,7 +31,7 @@ export function Products() {
       demo: "https://app.inkfinance.xyz",
     },
     {
-      title: "Loxar NFT Marketplace",
+      title: "LooksRare NFT Marketplace",
       description:
         "Blockchain-powered NFT Game and Marketplace for fractional real estate ownership with custom smart contracts and frontend integration.",
       image: "/loxar-nft-marketplace.png",
